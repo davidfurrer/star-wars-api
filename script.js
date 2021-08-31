@@ -1,16 +1,3 @@
-// async function predict_age() {
-//   let name = document.getElementById("textbox").value;
-//   let response = await fetch(`https://api.agify.io/?name=${name}`);
-//   let data = await response.json();
-//   console.log(data["age"]);
-//   document.getElementById("response").innerHTML = data["age"];
-// }
-
-// After you have the list of the movies you should be able to click
-// on the movie title and get the details about the movie or
-// at once show a list of the spaceships,
-// For example the description of the episode which will be shown
-// in another column, you can put this in another div element.
 const url = "https://swapi.dev/api/films/";
 
 const movieList = document.getElementById("moviesList");
